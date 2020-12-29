@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="modalex.css">
+<title>Documento sem título</title>
+</head>
+
+<body>
+
+
+<h2>Modal Example</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <legend align ="center">Cadastre-se</legend>	
+</div>
+<form method="POST" action="inserirusu.php" name="cadastro" enctype="multipart/form-data" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12"  align="center">
+<br><br>
+<label  for="email" class="mr-sm-2">Nome:</label><input type="text" class="form-control mb-2 mr-sm-2" name="nome" required id="nome"><br><br>
+<label>Email:</label><input type="email" class="form-control mb-2 mr-sm-2" name="email" required id="email"><br><br>
+<label>Celular:</label><input type="number" class="form-control mb-2 mr-sm-2"name="celular" required id="celular" ><br><br>
+<label >Senha:</label><input type="password" class="form-control mb-2 mr-sm-2"  name="senha" required id="senha"><br><br>
+<label>Confirmar Senha:</label><input type="password" class="form-control mb-2 mr-sm-2" name="confirmasenha" required id="confirmasenha" ><br><br>
+  <input type="submit" class="btn btn-primary mb-2" value="Cadastrar" id="cadastrar" name="cadastrar"><br><br>
+<a href="login.php" class="btn btn-primary mb-2" >Login</a>
+
+</br>
+
+
+</form>
+
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,621 @@
+.fix{
+clear: both;
+}
+
+@font-face{
+	font-family:"Swis721 LtEx BT";
+	}
+
+a:link 
+{ 
+    text-decoration:none; 
+}
+
+body{
+	margin-top: -1;
+	margin-left: -1;
+	margin-right: -1;
+}
+
+.header{
+	background-image: url ('livrosobre.png');
+	background-attachment: fixed;
+	max-width: 100%;
+}
+
+#logo img{
+	float: left;
+    width: 150px;	
+	height: 100px;
+	background-color: rgba(0,0,0,0.0);
+	padding-left: 20px;
+}
+
+.barramenu{
+	float: right;
+}
+
+#menu a:hover{
+	color: #cf9977;
+}
+
+#menu{
+	background-color: rgba(0,0,0,0.0);
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu li {
+   text-align: center;
+   horizontal-align: middle;
+   width:100px;
+   font-family: "Swis721 LtEx BT";
+   padding:5px 5px;
+   padding-left:20px;
+   padding-right:100px;
+
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: #ca5812;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li.submenu {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	}
+
+.submenu:hover .dropdown-content {
+  display: block;
+}
+
+#mapa{
+	background-image: url('livrosobre.png');
+	background-size: cover;
+	height: 600px;
+	width:100%;
+}
+
+#mapa img{
+	height: 800px;
+	width: 1340px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#txtimg {
+	font-family: "Swis721 LtEx BT";
+	color: #ca5812;
+    font-size: 20px;
+	position: absolute;
+	left: 500px;
+	top: 150px;
+	transition: 1.5s;
+}
+
+#txtimg a{
+    text-decoration: none;
+	color: #ca5812;
+}
+
+#txtimg a hover{
+    color: #cf9977;
+}
+
+#img1desc img{
+	width: 100px;
+	height: 100px;
+	margin-left:270px;
+	padding-left:50px;
+    padding-right:50px;
+	margin-top: 150px;
+	
+}
+
+#img2desc img{
+	width: 85px;
+	height: 85px;
+    margin-left:570px;
+	padding-left:50px;
+    padding-right:350px;
+	margin-top: -95px;
+	
+}
+
+#img3desc img{
+	width: 150px;
+	height: 150px;
+    margin-left:570px;
+	padding-left:150px;
+    padding-right:350px;
+	margin-top: -115px;
+	
+}
+
+.txtsobre {
+	font-family:"Swis721 LtEx BT";
+	font-size:20px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right:200px;
+	margin-top: -75;
+	color:white;
+}
+
+div.coluna{
+	box-sizing:border-box;
+	width: 100%;
+}
+
+div.col1{
+	background-color:#ca5812;
+	width:32.95%;
+	float: left;
+	margin-top: -198;
+	padding-left:14px;
+}
+
+#txtd1 {
+	font-family:"Swis721 LtEx BT";
+	font-size:22px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	color:white;
+	clear: both;
+}
+
+#desc1 {
+	font-family: "Swis721 LtEx BT";
+	color: white;
+	margin-left: 120px;
+	margin-top: -70px;
+}
+
+#img1 img{
+	width: 100px;
+	height: 100px;
+	padding-left:20px;
+    padding-right:30px;
+}
+
+div.col2{
+	background-color:#FFF;
+	width:33%;
+	float: left;
+	margin-top: -198;
+}
+
+#txtd2 {
+	font-family:"Swis721 LtEx BT";
+	font-size:22px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #000;
+	clear: both;
+	color:#9a9597;
+}
+
+#desc2 {
+	font-family: "Swis721 LtEx BT";
+	color: #ca5812;
+	margin-left: 120px;
+	margin-top: -70px;
+}
+
+#img2 img{
+	width: 100px;
+	height: 100px;
+	padding-left:20px;
+    padding-right:30px;
+}
+
+div.col3{
+	background-color:#ca5812;
+	width:33%;
+	float: left;
+	margin-top: -198;
+}
+
+#txtd3 {
+	font-family:"Swis721 LtEx BT";
+	font-size:22px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	color:white;
+	clear: both;
+}
+
+#desc3 {
+	font-family: "Swis721 LtEx BT";
+	color: white;
+	margin-left: 120px;
+	margin-top: -70px;
+}
+
+#img3 img{
+	width: 100px;
+	height: 100px;
+	padding-left:20px;
+    padding-right:30px;
+}
+
+#qstxt{
+	font-family: "Swis721 LtEx BT";
+	color: #ca5812;
+    font-size: 20px;
+	text-align:center;
+}
+
+div.qs1{
+	height: 175px;
+	width: 1324px;
+	}
+
+#txtqs1{
+	font-family:"Swis721 LtEx BT";
+	font-size:16px;
+	color:#333;
+}
+
+.qs1 img{
+	border-radius: 50px;
+	width: 175px;
+	height: 175px;
+	float: left;
+	padding-left: 25px;
+}
+
+div.qs2{
+	height: 175px;
+	width: 1324px;
+	}
+
+#txtqs2{
+	font-family:"Swis721 LtEx BT";
+	font-size:16px;
+	color:#333;
+	padding-left: 20px;
+}
+
+.qs2 img{
+	border-radius: 50px;
+	width: 175px;
+	height: 175px;
+	float: right;
+	padding-right: 10px;
+}
+
+div.qs3{
+	height: 175px;
+	width: 1324px;
+}
+
+#txtqs3{
+	font-family:"Swis721 LtEx BT";
+	font-size:16px;
+	color:#333;
+}
+
+.qs3 img{
+	border-radius: 50px;
+	width: 175px;
+	height: 175px;
+	float: left;
+	padding-left: 25px;
+}
+
+div.rod{
+	background-color:#ca5812;
+	height:350px;
+	width:100%;
+}
+
+.social{
+    float:left;
+    margin-top:5px;
+	font-family: "Swis721 LtEx BT";
+	color:white;
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+#contato{
+	margin-left: 15px;
+}
+
+.img1 img{
+    width: 30px;
+    height: 30px;
+	margin-top:10px;
+	padding-left:10px;
+	padding-right: 10px;
+}	
+
+.img2 img{
+    width: 30px;
+    height: 30px;
+	margin-top:25px;
+	padding-left:10px;
+	padding-right: 10px;
+}	
+
+.img3 img{
+    width: 30px;
+    height: 30px;
+	margin-top:25px;
+	padding-left:10px;
+	padding-right: 10px;
+}
+
+.img1 a{
+	font-family: "Swis721 LtEx BT";
+	color:white;
+}
+
+.img2 a{
+	font-family: "Swis721 LtEx BT";
+	color:white;
+}
+
+.img3 a{
+	font-family: "Swis721 LtEx BT";
+	color:white;
+}
+
+#txtsoc1{
+	margin-left: 50px;
+	margin-top: -25px;
+}
+
+#txtsoc2{
+	margin-left: 50px;
+	margin-top: -25px;
+}
+
+#txtsoc3{
+	margin-left: 50px;
+	margin-top: -25px;
+}
+
+#mybtn{
+   background-color:#f9f9f9;
+   border: none;
+   color: #ca5812;
+   padding: 15px 32px;
+   text-align: left;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+   font-family: "Swis721 LtEx BT";
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius:10px 10px 0px 0px;
+  background-color: #ca5812;
+  padding: 20px;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  transition:0.5s;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#titulo{
+	font-family:"Swis721 LtEx BT";
+	font-size:40px;
+	text-align:center;
+	color:white;
+	background-color: #ca5812;
+}
+
+#form{
+	background-color: #f2f2f2;
+	padding: 20px;
+	font-family:"Swis721 LtEx BT";
+	color: #ca5812;
+	font-size: 20px;
+	text-align: center;
+	width: 50%;
+	margin-left: 23.68%;
+    border-radius:0px 0px 10px 10px;
+}
+
+#form a{
+	cursor: pointer;
+	font-family:"Swis721 LtEx BT";
+	color: #000053;
+	text-align: right;
+}
+
+input[type=button], input[type=submit], input[type=reset], input[type=email], input[type=password] {
+    color: #000000;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family:"Swis721 LtEx BT";
+		
+}
+input[type=text], input [type=password] {
+	width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=submit] {
+   width: 25%;
+   font-size:20px;
+   background-color: #ca5812;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ca5920;
+}
+
+.gallery {
+    margin: 15px;
+    float: left;
+    width: 180px;
+	padding: 100px;
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 316px;
+  height: 316px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  left: 175%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #ca5812;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+  color: #ca5812;
+}
+
+.container:hover .middle {
+  opacity: 1;
+  color: #ca5812;
+}
+
+.text {
+  background-color: #ca5812;
+  font-family: "Swis721 LtEx BT";
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
