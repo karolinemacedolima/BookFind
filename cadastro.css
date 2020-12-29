@@ -1,0 +1,89 @@
+.fix{
+clear: both;
+    }
+body{
+	background-color:#fdf5fb; 
+}
+
+.social{
+    float:right;
+    margin-top:5px;
+
+}
+.social img{
+    width: 30px;
+    height: 30px;
+	margin-top:20px;
+}	
+
+.cadastro{
+   float:right;
+   width:auto;
+   height:auto;
+
+}
+
+.cadastro a:hover {
+   color: #f3cede;
+
+}
+.cadastro ul {
+   list-style: none;
+   background:none;
+   padding:5px 10px;
+   
+}
+.cadastro li {
+   display: table-cell;
+   text-align: center;
+   horizontal-align: middle;
+   width:100px;
+   border-right: 1px solid #e7abc9;
+   border-left: 1px solid #e7abc9;
+   padding:5px 5px;
+   padding-left:20px;
+   padding-right:30px;
+
+}
+.cadastro ul li a{
+   text-decoration: none;
+   font-size:20px;
+   color: #ce338a;
+
+}
+#barra img{
+	 width:1424px;
+	 height:230px;
+	
+	}	
+#titulo{
+	font-family:"Eras Light ITC";
+	font-size:40px;
+	margin-left: 200px;
+	margin-right:200px;
+	text-align:center;
+	color:#000000;
+	
+    }
+.form{
+	background-color:#fbeef4;
+	font-family:"Eras Light ITC";
+	
+}
+input[type=button], input[type=submit], input[type=reset], input[type=email], input[type=password] {
+    background-color: #e3d9de;
+    color: #000000;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family:"Eras Light ITC";
+		
+}
+input[type=text], input [type=password] {
+    background-color: #e3d9de;
+	
+
+}
+
+

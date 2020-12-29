@@ -1,0 +1,502 @@
+.fix{
+clear: both;
+}
+
+@font-face{
+	font-family:"Swis721 LtEx BT";
+	}
+
+a:link 
+{ 
+    text-decoration:none; 
+}
+
+body{
+	margin-top: -1;
+	margin-left: -1;
+	margin-right: -1;
+}
+
+.header{
+	background-image: url('mapafundo.png');
+	background-attachment: fixed;
+}
+
+#logo img{
+	float: left;
+    width: 150px;	
+	height: 100px;
+	background-color: rgba(0,0,0,0.0);
+	padding-left: 20px;
+}
+.barramenu{
+	float: right;
+	
+}
+#pop{display:none;position:absolute;
+top:50%;
+left:50%;
+margin-left:0px;
+margin-top:100px;
+padding:10px;
+width:300px;
+height:200px;
+border:1px solid #d0d0d0}
+#menu a:hover{
+	color: #cf9977;
+}
+
+#menu{
+	background-color: rgba(0,0,0,0.0);
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu li {
+   text-align: center;
+   horizontal-align: middle;
+   width:100px;
+   font-family: "Swis721 LtEx BT";
+   padding:5px 5px;
+   padding-left:20px;
+   padding-right:65px;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: #ca5812;
+}
+
+li {
+  float: left;
+}
+
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li.submenu {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	}
+
+.submenu:hover .dropdown-content {
+  display: block;
+}
+
+#mapa{
+	background-image: url(mapafundo.png);
+	background-size: cover;
+	height: 700px;
+	width:100%;
+}
+
+#mapa img{
+	height: 700px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	transition: 1.0s;
+}
+
+#txtimg {
+	font-family: "Swis721 LtEx BT";
+	color: #ca5812;
+    font-size: 30px;
+	position: absolute;
+	left: 540px;
+	top: 250px;
+	transition: 1.5s;
+}
+
+#txtimg a{
+    text-decoration: none;
+	color: #ca5812;
+}
+
+#txtimg a hover{
+    color: #cf9977;
+}
+
+.button a{
+	text-decoration: none;
+	color: #ca5812;
+}
+
+.button {
+	font-family: "Swis721 LtEx BT";
+    position: absolute;
+    left: 525px;
+    top: 375px;
+	border: 2px;
+    background-color: rgba(0,0,0,0.0);
+    transition: all 0.25s;
+    color: #ca5812;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 1.0s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1.0s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#titulocf{
+	font-family: "Swis721 LtEx BT";
+	font-size:40px;
+	margin-left: 200px;
+	margin-right:200px;
+	text-align:center;
+	color: #000053;
+}
+
+#desccf{
+	font-family: "Swis721 LtEx BT";
+	font-size:30px;
+	margin-left: 200px;
+	margin-right:200px;
+	text-align:center;
+	color: #000053;
+}
+
+.textos{
+	display: table-cell;
+}
+
+.txtfunc1{
+	font-family:"Swis721 LtEx BT";
+	font-size:20px;
+	text-align: left;
+	margin-left: 200px;
+	margin-right:200px;
+	color:#9a9597;
+	}
+
+.txtfunc1 img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-left:20px;
+    padding-right:30px;
+}
+	
+.txtfunc2{
+	font-family:"Swis721 LtEx BT";
+	font-size:20px;
+	text-align: left;
+	margin-left: 200px;
+	margin-right:200px;
+	color:#9a9597;
+}
+
+.txtfunc2 img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-left:20px;
+    padding-right:30px;
+}
+	
+.txtfunc3{
+	font-family:"Swis721 LtEx BT";
+	font-size:20px;
+	text-align: left;
+	margin-left: 200px;
+	margin-right:200px;
+	color:#9a9597;
+	}
+	
+.txtfunc3 img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-left:20px;
+    padding-right:30px;
+}
+
+#implei{
+	font-family: "Swis721 LtEx BT";
+	font-size:30px;
+	margin-left: 200px;
+	margin-right:200px;
+	text-align:center;
+	color: #000053;
+}
+	
+div.rod{
+	background-color:#ca5812;
+	height:350px;
+	widht:1424px;
+}
+
+.social{
+    float:left;
+    margin-top:5px;
+	font-family: "Swis721 LtEx BT";
+	color:white;
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+#contato{
+	margin-left: 15px;
+}
+
+.img1 img{
+    width: 30px;
+    height: 30px;
+	margin-top:10px;
+	padding-left:10px;
+	padding-right: 10px;
+}	
+
+.img2 img{
+    width: 30px;
+    height: 30px;
+	margin-top:25px;
+	padding-left:10px;
+	padding-right: 10px;
+}	
+
+.img3 img{
+    width: 30px;
+    height: 30px;
+	margin-top:25px;
+	padding-left:10px;
+	padding-right: 10px;
+}
+
+.img1 a{
+	font-family: "Swis721 LtEx BT";
+	color:white;
+}
+
+.img2 a{
+	font-family: "Swis721 LtEx BT";
+	color:white;
+}
+
+.img3 a{
+	font-family: "Swis721 LtEx BT";
+	color:white;
+}
+
+#txtsoc1{
+	margin-left: 50px;
+	margin-top: -25px;
+}
+
+#txtsoc2{
+	margin-left: 50px;
+	margin-top: -25px;
+}
+
+#txtsoc3{
+	margin-left: 50px;
+	margin-top: -25px;
+}
+
+#mybtn{
+   border: none;
+   color: #ca5812;
+   text-align: left;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+   font-family: "Swis721 LtEx BT";
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 75px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius:10px 10px 0px 0px;
+  background-color: #ca5812;
+  padding: 20px;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  transition:0.5s;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#titulo{
+	font-family:"Swis721 LtEx BT";
+	font-size:40px;
+	text-align:center;
+	color:white;
+	background-color: #ca5812;
+}
+
+#form{
+	background-color: #f2f2f2;
+	padding: 20px;
+	font-family:"Swis721 LtEx BT";
+	color: #ca5812;
+	font-size: 20px;
+	text-align: center;
+	width: 50%;
+	margin-left: 23.50%;
+    border-radius:0px 0px 10px 10px;
+}
+
+#form a{
+	cursor: pointer;
+	font-family:"Swis721 LtEx BT";
+	color: #000053;
+	text-align: right;
+}
+
+input[type=button], input[type=submit], input[type=reset], input[type=email], input[type=password] {
+    color: #000000;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family:"Swis721 LtEx BT";
+		
+}
+input[type=text], input [type=password] {
+	width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+   width: 25%;
+   font-size:20px;
+   background-color: #ca5812;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ca5920;
+}
+
+
+	
